@@ -1,31 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Image Gallery</title>
-    <link rel="stylesheet" href="gallery.css">
+    <title>Reestar</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <div class="container">
-
-        <div class="header">Header</div>
-
-        <h2 class="title">Image Gallery</h2>
-        <div class="line"></div>
-
-        <div class="gallery">
-            <img src="nature1.jpeg">
-            <img src="nature2.jpeg">
-            <img src="nature3.jpeg">
-            <img src="nature4.jpeg">
-            <img src="nature5.jpeg">
-            <img src="nature6.jpeg">
-            <img src="nature7.jpeg">
-            <img src="nature8.jpeg">
+        <div class="section-one">
+            <h3>Reestar</h3>
+            <p>Home | Recipe | Contact</p>
         </div>
 
+        <div class="section-two">
+            <img src="burger.jpeg" alt="food image" height="320px" width="230" class="section-two__image">
+            <p class="section-two__title">An best burger option</p>
+            <p class="section-two__desc">A Delicious piece of burger,<br>something which is very delicious</p>
+            <button class="section-two__button">Order Now</button>
+        </div>
+        <div class="section-three">
+            <img src="chicken.jpeg" alt="food image" height="320px" width="230" class="section-three__image">
+            <p class="section-three__title">An best chicken option</p>
+            <p class="section-three__desc">A Delicious piece of burger,<br>something which is very delicious</p>
+            <button class="section-three__button">Order Now</button>
+        </div>
+        <div class="section-four">
+            <img src="Dosa.jpeg" alt="food image" height="320px" width="230" class="section-four__image">
+            <p class="section-four__title">An best dosa option</p>
+            <p class="section-four__desc">A Delicious piece of burger,<br>something which is very delicious</p>
+            <button class="section-four__button">Order Now</button>
+        </div>
+        <div class="section-five">
+            <img src="Fish Fillet.jpeg" alt="food image" height="320px" width="230" class="section-five__image">
+            <p class="section-five__title">An best fish fillet option</p>
+            <p class="section-five__desc">A Delicious piece of burger,<br>something which is very delicious</p>
+            <button class="section-five__button">Order Now</button>
+
+        </div>
+    </div>
+    <div class="contact-page">
+        <form>
+            <table>
+                <h2 class="contact-page__title">Contact Us</h2>
+                <tr class="contact-page-input__size">
+                    <td class="contact-page-input__name">
+                        <lable for="name">Name:</lable>
+                        <input type="text" id="name" name="name" placeholder="Name...,">
+                    </td>
+                </tr>
+                <tr class="contact-page-input__size">
+                    <td class="contact-page-input__age">
+                        <lable for="age">Age:</lable>
+                        <input type="number" id="age" name="age" placeholder="Age...,">
+                    </td>
+                </tr>
+                <tr class="contact-page-input__size">
+                    <td class="contact-page-input__email">
+                        <lable for="email">Email:</lable>
+                        <input type="email" id="email" name="email" placeholder="Email...,">
+                    </td>
+                </tr>
+
+            </table>
     </div>
 
+    <div class="contact-page__button">
+
+        <p>Send</p>
+
+    </div>
+    </div>
+
+
+
+
+    </form>
+
+
+
+
+
+
+
 </body>
+
 </html>
