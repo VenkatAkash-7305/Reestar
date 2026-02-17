@@ -84,6 +84,7 @@
     padding-left: 230px;
     font-size: larger;
     font-weight: bolder;
+    border: none;
     
     }
  .contact-page-input__age input{
@@ -94,3 +95,4 @@
     padding-left:45px;
  }
  
+
